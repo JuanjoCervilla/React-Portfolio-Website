@@ -2,9 +2,8 @@ import React from 'react'
 import './nav.css'
 
 const nav = () => {
-  return 
-  (
-    <div>nav</div>
+  return (
+    <div>Nav</div>
   )
 }
 
