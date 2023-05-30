@@ -8,14 +8,14 @@ const data = [
   {
     id: 1,
     image: IMG1,
-    title: 'Website Porftolio',
+    title: 'Churn prediction',
     github: 'https://github.com/Juanjo1809/React-Portfolio-Website',
     demo: 'https://github.com/Juanjo1809/React-Portfolio-Website'
   },
   {
     id: 2,
     image: IMG2,
-    title: 'Website Porftolio',
+    title: 'Personal Finances Dashboard',
     github: "https://github.com/Juanjo1809/React-Portfolio-Website",
     demo: "https://github.com/Juanjo1809/React-Portfolio-Website"
   },

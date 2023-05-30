@@ -6,9 +6,9 @@ const HeaderSocials = () => {
   return (
     <div className='header__socials'>
         {/* No he puesto --> target = '_blank' */}
-        <a href='https://linkedin.com'><BsLinkedin/></a> 
-        <a href='https://github.com'><FaGithub/></a>
-        <a href='https://github.com'><FaGithub/></a> 
+        <a href='https://www.linkedin.com/in/juan-cervilla/' ><BsLinkedin/></a> 
+        <a href='https://github.com/JuanjoCervilla' ><FaGithub/></a>
+        {/* <a href='https://github.com' target = '_blank'><FaGithub/></a>  */}
     </div>
   )
 }

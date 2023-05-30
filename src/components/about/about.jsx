@@ -1,6 +1,6 @@
 import React from 'react'
 import './about.css'
-import MEABOUT from '../../assets/me-about.png'
+import MEABOUT from '../../assets/me-about.jpg'
 import {FaAward} from 'react-icons/fa'
 import {FiUsers} from 'react-icons/fi'
 import {VscFolderLibrary} from 'react-icons/vsc'
@@ -41,8 +41,13 @@ const About = () => {
           </div>
 
         <p>
-        DDL Data Definition Language: CREATE, ALTER, TRUNCATE, DROP. It is used for defining objects. DML Data Manipulation Language : INSERT, SELECT, UPDATE, DELETE. 
-        It is used for manipulating data in tables
+        Aeronautical Engineer reborn as a Data Analyst, passionate for new technologies, data analysis and automation. 
+        </p>
+        <p>
+        With a strong foundation in engineering principles, I have quickly adapted to the complexities of working with vast datasets, mastering the latest tools and adapting my skills to the always evolving Big Data field.
+        </p>
+        <p>
+        Committed to continuous learning and staying up-to-date with industry trends, I am enthusiastic about leveraging data to unlock hidden opportunities and optimize business processes.
         </p>
 
         <a href="#contact" className='btn btn-primary'>Let's Talk</a>
