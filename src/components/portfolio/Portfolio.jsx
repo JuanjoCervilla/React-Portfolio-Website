@@ -3,28 +3,39 @@ import './portfolio.css'
 import IMG1 from '../../assets/portfolio_1.jpg'
 import IMG2 from '../../assets/portfolio_2.jpg'
 import IMG3 from '../../assets/portfolio_3.jpg'
+import IMG4 from '../../assets/portfolio_4.png'
 
 const data = [
   {
     id: 1,
     image: IMG1,
     title: 'Churn prediction',
-    github: 'https://github.com/Juanjo1809/React-Portfolio-Website',
-    demo: 'https://github.com/Juanjo1809/React-Portfolio-Website'
+    github: 'https://github.com/JuanjoCervilla/Churn_Prediction',
+    demo: 'https://github.com/JuanjoCervilla/Churn_Prediction'
   },
+
   {
     id: 2,
-    image: IMG2,
-    title: 'Personal Finances Dashboard',
-    github: "https://github.com/Juanjo1809/React-Portfolio-Website",
-    demo: "https://github.com/Juanjo1809/React-Portfolio-Website"
-  },
-  {
-    id: 3,
     image: IMG3,
     title: 'Website Porftolio',
     github: "https://github.com/Juanjo1809/React-Portfolio-Website",
     demo: "https://github.com/Juanjo1809/React-Portfolio-Website"
+  },
+
+  {
+    id: 3,
+    image: IMG2,
+    title: 'Real State Scrapping (Idealista)',
+    github: "https://github.com/JuanjoCervilla/Idealista-Scarpping",
+    demo: "https://github.com/JuanjoCervilla/Idealista-Scarpping"
+  },
+
+  {
+    id: 4,
+    image: IMG4,
+    title: 'Personal Finances Dashboard',
+    github: "https://github.com/JuanjoCervilla/Personal_Finances",
+    demo: "https://github.com/JuanjoCervilla/Personal_Finances"
   },
 
 ]
@@ -44,8 +55,8 @@ const Portfolio = () => {
                 <img src={image} alt={title} />
               <h3>{title}</h3>
               <div className='portfolio__item-cta'>
-                <a href={github} className='btn' >Github</a>
-                <a href={demo} className='btn btn-primary'>Live Demo</a>
+                <a href={demo} className='btn'> Live Demo </a>
+                <a href={github} className='btn btn-primary'> Github </a>
               </div>
             </article>
             ) 
