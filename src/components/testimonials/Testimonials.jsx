@@ -15,20 +15,21 @@ import 'swiper/css/pagination';
 
 const data = [
   {
+    avatar : AVTR2,
+    name : 'Alex Lenfant',
+    review: 'Juan José and I worked together on several projects, and I was lucky to call him my coworker. He consistently gave 100 percent effort to the team and played a significant role in ensuring that we completed assignments on time.'
+  },
+  
+  {
     avatar : AVTR1,
-    name : 'Yolanda Diaz',
-    review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum dolore, esse omnis maximmus repudiandae ipsa illo! Lorem ipsum dolor sit'
+    name : 'Elizabeth Hall',
+    review: 'Juan José had great communication and finished all work in a timely manner.'
   },
 
   {
-    avatar : AVTR2,
-    name : 'Pedro Sanchez',
-    review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum dolore, esse omnis maximmus repudiandae ipsa illo! Lorem ipsum dolor sit'
-  },
-  {
     avatar : AVTR3,
-    name : 'Alessandro Fiumara',
-    review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum dolore, esse omnis maximmus repudiandae ipsa illo! Lorem ipsum dolor sit'
+    name : 'Alejandro Díaz',
+    review: 'Mr. Cervilla is one of the most delightful people I had the pleasure of working for in my career. Not only did he have a unique ability to keep our team organized and on schedule, but his constant communication helped lift our spirits in challenging situations.'
   },
 ]
 

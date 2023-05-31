@@ -29,28 +29,29 @@ const About = () => {
 
           <article className='about__card'>
             <FiUsers className='about__icon'/>
-            <h5>Clients</h5>
-            <small>200+ Wordlwide</small>
+            <h5>International Environment</h5>
+            {/* <small>France, Spain</small> */}
           </article>
 
           <article className='about__card'>
             <VscFolderLibrary className='about__icon'/>
             <h5>Projects</h5>
-            <small>80+ Completed</small>
+            <small>10+ Completed</small>
           </article>
           </div>
 
-        <p>
-        Aeronautical Engineer reborn as a Data Analyst, passionate for new technologies, data analysis and automation. 
-        </p>
-        <p>
-        With a strong foundation in engineering principles, I have quickly adapted to the complexities of working with vast datasets, mastering the latest tools and adapting my skills to the always evolving Big Data field.
-        </p>
-        <p>
-        Committed to continuous learning and staying up-to-date with industry trends, I am enthusiastic about leveraging data to unlock hidden opportunities and optimize business processes.
-        </p>
+        <p> Aerospace Engineer reborn as a Data Analyst, passionate for new technologies, data analysis and automation with a strong foundation in engineering principles. </p>
 
-        <a href="#contact" className='btn btn-primary'>Let's Talk</a>
+        <p>Committed to continuous learning and staying up‑to‑date with industry trends, I am enthusiastic about leveraging data to unlock hidden opportunities and optimize business processes.</p>
+
+        <h4>EDUCATION</h4>
+          <ol style={{ listStyle: 'none' }}>
+              <li> - ECOLE CENTRALE NANTES (ECN): DIPLÔME D'INGENIEUR </li>
+              <li> - UNIVERSIDAD POLITECNICA DE MADRID (UPM): BS. + MS. IN AEROSPACE ENGINEER</li>
+          </ol>
+
+        {/* <a href="#contact" className='btn btn-primary'>Let's Talk</a> */}
+
       </div>
     </div>
 

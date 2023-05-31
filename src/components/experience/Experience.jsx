@@ -6,7 +6,7 @@ import {BsPatchCheckFill} from 'react-icons/bs'
 const Experience = () => {
   return (
     <section id='experiences'>
-      <h5>What Skills I have</h5>
+      <h5>What IT Skills I have</h5>
       <h2>My Experience</h2>
 
       <div className="container experiences__container">
@@ -45,8 +45,15 @@ const Experience = () => {
             <article className='experiences__details'>
               <BsPatchCheckFill className='experiences__details-icon'/>
               <div>
-                <h4>Django</h4>
-                <small className='text-light'>Experienced</small>
+                <h4>AWS | GPC</h4>
+                <small className='text-light'>Beginner</small>
+              </div>
+            </article>
+            <article className='experiences__details'>
+              <BsPatchCheckFill className='experiences__details-icon'/>
+              <div>
+                <h4>Snowflake</h4>
+                <small className='text-light'>Beginner</small>
               </div>
             </article>
           </div>
@@ -58,15 +65,15 @@ const Experience = () => {
             <article className='experiences__details'>
               <BsPatchCheckFill className='experiences__details-icon'/>
               <div>
-                <h4>Dash Plotly</h4>
+                <h4>Dash Plotly (flask)</h4>
                 <small className='text-light'>Experienced</small>
               </div>
             </article>
             <article className='experiences__details'>
               <BsPatchCheckFill className='experiences__details-icon'/>
               <div>
-                <h4>Django</h4>
-                <small className='text-light'>Beginner</small>
+                <h4>Python</h4>
+                <small className='text-light'>Experienced</small>
               </div>
             </article>
             <article className='experiences__details'>
@@ -86,8 +93,15 @@ const Experience = () => {
             <article className='experiences__details'>
               <BsPatchCheckFill className='experiences__details-icon'/>
               <div>
-                <h4>Python</h4>
-                <small className='text-light'>Experienced</small>
+                <h4>Django</h4>
+                <small className='text-light'>Beginner</small>
+              </div>
+            </article>
+            <article className='experiences__details'>
+              <BsPatchCheckFill className='experiences__details-icon'/>
+              <div>
+                <h4>Github | Docker</h4>
+                <small className='text-light'>Intermediate</small>
               </div>
             </article>
           </div>    

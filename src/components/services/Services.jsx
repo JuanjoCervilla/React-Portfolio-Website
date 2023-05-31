@@ -11,29 +11,21 @@ const Services = () => {
       <div className="container services__container">
         <article  className='service'>
           <div className='service__head'>
-            <h3>DATA ANALYST | DATA SCIENTIST </h3>
+            <h3>DATA SCIENTIST </h3>
           </div>
 
           <ul className='service__list'>
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Lorem, ipsum dolor sit amet consectetur ignissimos, sunt accusantium.</p>
+              <p>Web scrapping</p>
             </li>
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Lorem, ipsum dolor sit amet consectetur ignissimos, sunt accusantium.</p>
+              <p>Algorithms of machine learning (sklearn)</p>
             </li>
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Lorem, ipsum dolor sit amet consectetur ignissimos, sunt accusantium.</p>
-            </li>
-            <li>
-              <BiCheck className='service__list-icon' />
-              <p>Lorem, ipsum dolor sit amet consectetur ignissimos, sunt accusantium.</p>
-            </li>
-            <li>
-              <BiCheck className='service__list-icon' />
-              <p>Lorem, ipsum dolor sit amet consectetur ignissimos, sunt accusantium.</p>
+              <p>Data mining</p>
             </li>
           </ul>
         </article>
@@ -47,65 +39,37 @@ const Services = () => {
           <ul className='service__list'>
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Lorem, ipsum dolor sit amet consectetur ignissimos, sunt accusantium.</p>
+              <p> Dash-Plotly Web Development (flask) </p>
             </li>
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Lorem, ipsum dolor sit amet consectetur ignissimos, sunt accusantium.</p>
+              <p> React and Django Web Development </p>
             </li>
-            <li>
+            {/* <li>
               <BiCheck className='service__list-icon' />
-              <p>Lorem, ipsum dolor sit amet consectetur ignissimos, sunt accusantium.</p>
-            </li>
-            <li>
-              <BiCheck className='service__list-icon' />
-              <p>Lorem, ipsum dolor sit amet consectetur ignissimos, sunt accusantium.</p>
-            </li>
-            <li>
-              <BiCheck className='service__list-icon' />
-              <p>Lorem, ipsum dolor sit amet consectetur ignissimos, sunt accusantium.</p>
-            </li>
-            <li>
-              <BiCheck className='service__list-icon' />
-              <p>Lorem, ipsum dolor sit amet consectetur ignissimos, sunt accusantium.</p>
-            </li>
-            <li>
-              <BiCheck className='service__list-icon' />
-              <p>Lorem, ipsum dolor sit amet consectetur ignissimos, sunt accusantium.</p>
-            </li>
+              <p> Django application</p>
+            </li> */}
           </ul>
         </article>
         {/* END OF WEB DEVELOPMENT*/}
 
         <article  className='service'>
           <div className='service__head'>
-            <h3>BIG DATA</h3>
+            <h3>DATA ANALYST</h3>
           </div>
 
           <ul className='service__list'>
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Lorem, ipsum dolor sit amet consectetur ignissimos, sunt accusantium.</p>
+              <p> Qlik Sense Development </p>
             </li>
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Lorem, ipsum dolor sit amet consectetur ignissimos, sunt accusantium.</p>
+              <p> Data Visualization</p>
             </li>
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Lorem, ipsum dolor sit amet consectetur ignissimos, sunt accusantium.</p>
-            </li>
-            <li>
-              <BiCheck className='service__list-icon' />
-              <p>Lorem, ipsum dolor sit amet consectetur ignissimos, sunt accusantium.</p>
-            </li>
-            <li>
-              <BiCheck className='service__list-icon' />
-              <p>Lorem, ipsum dolor sit amet consectetur ignissimos, sunt accusantium.</p>
-            </li>
-            <li>
-              <BiCheck className='service__list-icon' />
-              <p>Lorem, ipsum dolor sit amet consectetur ignissimos, sunt accusantium.</p>
+              <p> Dashboards Application </p>
             </li>
           </ul>
         </article>
