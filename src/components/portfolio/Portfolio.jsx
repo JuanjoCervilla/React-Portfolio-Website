@@ -1,7 +1,7 @@
 import React from 'react'
 import './portfolio.css'
 import IMG1 from '../../assets/portfolio_1.jpg'
-import IMG2 from '../../assets/portfolio_2.jpg'
+// import IMG2 from '../../assets/portfolio_2.jpg'
 import IMG3 from '../../assets/portfolio_3.jpg'
 import IMG4 from '../../assets/portfolio_4.png'
 
@@ -9,7 +9,7 @@ const data = [
   {
     id: 1,
     image: IMG1,
-    title: 'Churn prediction',
+    title: 'Home Recipes Web Application',
     github: 'https://github.com/JuanjoCervilla/Churn_Prediction',
     demo: 'https://github.com/JuanjoCervilla/Churn_Prediction'
   },
@@ -22,16 +22,16 @@ const data = [
     demo: "https://github.com/Juanjo1809/React-Portfolio-Website"
   },
 
-  {
-    id: 3,
-    image: IMG2,
-    title: 'Real State Scrapping (Idealista)',
-    github: "https://github.com/JuanjoCervilla/Idealista-Scarpping",
-    demo: "https://github.com/JuanjoCervilla/Idealista-Scarpping"
-  },
+  // {
+  //   id: 3,
+  //   image: IMG2,
+  //   title: 'Real State Scrapping (Idealista)',
+  //   github: "https://github.com/JuanjoCervilla/Idealista-Scarpping",
+  //   demo: "https://github.com/JuanjoCervilla/Idealista-Scarpping"
+  // },
 
   {
-    id: 4,
+    id: 3,
     image: IMG4,
     title: 'Personal Finances Dashboard',
     github: "https://github.com/JuanjoCervilla/Personal_Finances",

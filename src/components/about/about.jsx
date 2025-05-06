@@ -23,7 +23,7 @@ const About = () => {
           <article className='about__card'>
             <FaAward className='about__icon'/>
             <h5>Experiences</h5>
-            <small>3+ Years Working</small>
+            <small>4+ Years Working</small>
           </article>
        
 
@@ -46,11 +46,9 @@ const About = () => {
 
         <h4>EDUCATION</h4>
           <ol style={{ listStyle: 'none' }}>
-              <li> - ECOLE CENTRALE NANTES (ECN): DIPLÔME D'INGENIEUR </li>
+              <li> - ECOLE CENTRALE NANTES (ECN): DIPLÔME D'INGENIEUR in Computer Science</li>
               <li> - UNIVERSIDAD POLITECNICA DE MADRID (UPM): BS. + MS. IN AEROSPACE ENGINEER</li>
           </ol>
-
-        {/* <a href="#contact" className='btn btn-primary'>Let's Talk</a> */}
 
       </div>
     </div>
