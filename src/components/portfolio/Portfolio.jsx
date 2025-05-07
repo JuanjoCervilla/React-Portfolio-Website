@@ -10,8 +10,8 @@ const data = [
     id: 1,
     image: IMG1,
     title: 'Home Recipes Web Application',
-    github: 'https://github.com/JuanjoCervilla/Churn_Prediction',
-    demo: 'https://github.com/JuanjoCervilla/Churn_Prediction'
+    github: 'https://github.com/JuanjoCervilla/LostillaRecipes-App',
+    demo: 'https://drive.google.com/drive/folders/1tY2GD4lTpq3IYKCbEgzbxJhYkhZPQOC0?usp=drive_link'
   },
 
   {
@@ -35,7 +35,7 @@ const data = [
     image: IMG4,
     title: 'Personal Finances Dashboard',
     github: "https://github.com/JuanjoCervilla/Personal_Finances",
-    demo: "https://github.com/JuanjoCervilla/Personal_Finances"
+    demo: "https://drive.google.com/drive/folders/1LHkrkfl20tDujga0P6CWvm12b7rfVoGJ?usp=drive_link"
   },
 
 ]
